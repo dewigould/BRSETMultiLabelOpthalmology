@@ -7,7 +7,7 @@ This repository hosts the version of the code used for the publication: "Multi-l
 ## Getting Started
 To run baseline model:
 ```python
-MultiLabelClassifier/python run.py
+python MultiLabelClassifier/run.py
 ```
 
 To run ensemble method:
