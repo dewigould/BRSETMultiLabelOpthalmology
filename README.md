@@ -5,6 +5,10 @@ This repository hosts the version of the code used for the publication: "Multi-l
 
 
 ## Getting Started
+To run code:
+```python
+python run.py
+'''
 
 
 ## Citation
