@@ -12,7 +12,8 @@ python MultiLabelClassifier/run.py
 
 To run ensemble method:
 ```python
-python MultiLabelClassifier/run_ensemble.py```
+python MultiLabelClassifier/run_ensemble.py
+```
 
 
 ## Citation
