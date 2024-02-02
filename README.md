@@ -5,10 +5,14 @@ This repository hosts the version of the code used for the publication: "Multi-l
 
 
 ## Getting Started
-To run code:
+To run baseline model:
 ```python
 python run.py
-'''
+```
+
+To run ensemble method:
+```python
+python run_ensemble.py```
 
 
 ## Citation
