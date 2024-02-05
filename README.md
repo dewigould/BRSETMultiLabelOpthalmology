@@ -1,5 +1,5 @@
 # BRESTMultiLabelOpthalmology
-This repository hosts the version of the code used for the publication: "Multi-label disease classification of retinal fundus images using deep learning".
+This repository hosts the version of the code used for the publication: "Deep Learning for Multi-Label Disease Classification of Retinal Images: Insights from Brazilian Data for AI Development in Lower-Middle Income Countries".
 
 
 ## Dataset Access
