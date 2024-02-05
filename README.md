@@ -19,11 +19,11 @@ pip install -e
 There are two scripts which can be run to train/ test models. The first is ``` MultiLabelClassifier/run.py''' and the second is ``` MultiLabelClassifier/run_ensemble.py'''. Each script contains a ```CONFIG''' dictionary where parameters can be chosen. These are
 ```
 CONFIG = {
-    num_epochs: \text{number of epochs},
+    num_epochs: 6,
     input_batch_size=8,
     learning_rate = 0.00001,
     target_width=1000,
-    path_to_dataset = "",
+    path_to_dataset = "INSERT_PATH_TO_PHYSIONET_DATASET_DOWNLOAD",
     input_test_name = "THE_NAME_OF_THE_EXPERIMENT",
     checkpoint_folder_name = "training_checkpoints/",
     num_normals_removed = 5000, #or NaN
@@ -31,10 +31,11 @@ CONFIG = {
     train_on_one_camera_type = "Nikon", #Nikon, Canon, NaN
     use_weighted_loss_function = False,
     L2_penalty = 0, #Set to value required
-    sampling_dictionary = {'nevus':500,'amd':1000} #disease and amount of over/undersampling
+    sampling_dictionary = {'nevus':500,'amd':1000}, #disease and amount of over/undersampling
+    uploading_pre_trained = True
     }
 ```
-
+If running inference on a pretrained model (```uploading_pre_trained=True```), the path to the weights of the model should be added as the ```input_test_name``` variable. If training and testing a model from scratch (```uploading_pre_trained=False```), ```input_test_name``` will be the name of the saved .h5 model file.
 
 To run baseline model:
 ```python
