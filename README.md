@@ -47,6 +47,14 @@ To run ensemble method:
 python MultiLabelClassifier/run_ensemble.py
 ```
 
+## Pre-Trained Models
+In this repo we provide several pre-trained models which appear in our work TODO -- ADD LINK.
+
+- ```model1.h5```:
+- ```model2.h5```:
+
+
+
 
 ## Citation
 If you found our work useful, please consider citing:
