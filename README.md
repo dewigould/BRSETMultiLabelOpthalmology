@@ -48,10 +48,7 @@ python MultiLabelClassifier/run_ensemble.py
 ```
 
 ## Pre-Trained Models
-In this repo we provide several pre-trained models which appear in our work TODO -- ADD LINK.
-
-- ```baseline_model.h5```: This is the baseline model trained for 6 epochs. The performance of this model is presented in Table 4 of our paper.
-- ```model_with_normals_removed.h5```: This is the baseline model trained on the dataset with 5000 "Normal" images removed. The performance of this model is presented in Table 5 of our paper.
+For access to the pre-trained models used in our work, please contact the owners of this repo.
 
 ## Citation
 If you found our work useful, please consider citing:
