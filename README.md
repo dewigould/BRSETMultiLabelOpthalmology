@@ -16,7 +16,7 @@ pip install -e
 ```
 
 ## Getting Started
-There are two scripts which can be run to train/ test models. The first is ``` MultiLabelClassifier/run.py''' and the second is ``` MultiLabelClassifier/run_ensemble.py'''. Each script contains a ```CONFIG''' dictionary where parameters can be chosen. These are
+There are two scripts which can be run to train/ test models. The first is ``` MultiLabelClassifier/run.py``` and the second is ``` MultiLabelClassifier/run_ensemble.py```. Each script contains a ```CONFIG``` dictionary where parameters can be chosen. These are
 ```
 CONFIG = {
     num_epochs: 6,
