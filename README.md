@@ -16,6 +16,26 @@ pip install -e
 ```
 
 ## Getting Started
+There are two scripts which can be run to train/ test models. The first is ``` MultiLabelClassifier/run.py''' and the second is ``` MultiLabelClassifier/run_ensemble.py'''. Each script contains a ```CONFIG''' dictionary where parameters can be chosen. These are
+```
+CONFIG = {
+    num_epochs: \text{number of epochs},
+    input_batch_size=8,
+    learning_rate = 0.00001,
+    target_width=1000,
+    path_to_dataset = "",
+    input_test_name = "THE_NAME_OF_THE_EXPERIMENT",
+    checkpoint_folder_name = "training_checkpoints/",
+    num_normals_removed = 5000, #or NaN
+    cols_to_be_amalgamated_into_other = ['retinal_detachment','hemorrhage','nevus','hypertensive_retinopathy'],
+    train_on_one_camera_type = "Nikon", #Nikon, Canon, NaN
+    use_weighted_loss_function = False,
+    L2_penalty = 0, #Set to value required
+    sampling_dictionary = {'nevus':500,'amd':1000} #disease and amount of over/undersampling
+    }
+```
+
+
 To run baseline model:
 ```python
 python MultiLabelClassifier/run.py
