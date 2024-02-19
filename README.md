@@ -51,4 +51,4 @@ python MultiLabelClassifier/run_ensemble.py
 For access to the pre-trained models used in our work, please contact the owners of this repo.
 
 ## Citation
-If you found our work useful, please consider citing:
+If you found our work useful, please consider citing: https://doi.org/10.1101/2024.02.12.24302676
