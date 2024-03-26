@@ -1,4 +1,4 @@
-# BRESTMultiLabelOpthalmology
+# BRSETMultiLabelOpthalmology
 This repository hosts the version of the code used for the publication: "Deep Learning for Multi-Label Disease Classification of Retinal Images: Insights from Brazilian Data for AI Development in Lower-Middle Income Countries".
 
 
